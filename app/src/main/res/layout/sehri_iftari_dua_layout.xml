@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ramjan_dua_bg">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#ff000000"
+            android:alpha=".6">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="রোযার নিয়ত"
+                    android:textColor="#fff5faff"
+                    android:textStyle="bold"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="نويت ان اصوم غدا من شهر رمضان المبارك فرضا لك ياالله فتقبل منى انك انت السميع العليم."
+                    android:textColor="#fff5faff"
+                    android:id="@+id/textView2"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="উচ্চারণ: নাওয়াইতু আন আছুমা গদাম মিং শাহরি রমাদ্বানাল মুবারকি ফারদ্বল্লাকা ইয়া আল্লাহু ফাতাক্বব্বাল মিন্নী ইন্নাকা আংতাস সামীউল আলীম। অর্থ: আয় আল্লাহ পাক! আপনার সন্তুষ্টির জন্য আগামীকালের রমাদ্বান শরীফ-এর ফরয রোযা রাখার নিয়ত করছি। আমার তরফ থেকে আপনি তা কবুল করুন। নিশ্চয়ই আপনি সর্বশ্রোতা , সর্বজ্ঞাত।"
+                    android:textColor="#fff5faff"
+                    android:id="@+id/textView3"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ইফতার-এর দুআ"
+                    android:textColor="#fff5faff"
+                    android:textStyle="bold"
+                    android:id="@+id/textView4"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="اللهم لك صمت و على رزقك افطرت."
+                    android:textColor="#fff5faff"
+                    android:id="@+id/textView5"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="উচ্চারণ: আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা আফত্বরতু।
+
+অর্থ: আয় আল্লাহ পাক! আমি আপনারই সন্তুষ্টির জন্য রোযা রেখেছি এবং আপনারই দেয়া রিযিক্ব দ্বারা ইফতার করছি।"
+                    android:textColor="#fff5faff"
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
